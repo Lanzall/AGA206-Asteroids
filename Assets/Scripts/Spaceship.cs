@@ -3,12 +3,24 @@ using UnityEngine;
 
 public class Spaceship : MonoBehaviour
 {
+    #region Variables
+    [Header("Engine")]
     public float EnginePower = 10f;
     public float TurnPower = 10f;
+
+    [Header("Health")]
     public int HealthMax = 3;
     public int HealthCurrent;
 
+    [Header("Bullets")]
+    public GameObject BulletPrefab;
+    public float BulletSpeed = 100f;
+    public float FiringRate = 0.33f;
+    private float fireTimer = 0f;
+
     private Rigidbody2D rb2D;
+
+    #endregion
     void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
@@ -22,10 +34,19 @@ public class Spaceship : MonoBehaviour
 
         ApplyThrust(vertical);
         ApplyTorque(horizontal);
+        UpdateFiring();
+    }
 
-        if(Input.GetKeyDown(KeyCode.K))
+    private void UpdateFiring()
+    {
+        bool isFiring = Input.GetButton("Fire1");
+
+        fireTimer -= Time.deltaTime;    //Decrement timer
+
+        if (isFiring == true && fireTimer <= 0)
         {
-            TakeDamage(1);
+            FireBullet();
+            fireTimer = FiringRate;
         }
     }
 
@@ -62,5 +83,17 @@ public class Spaceship : MonoBehaviour
         //Destroy the ship, end the game
         Debug.Log("Game Over");
         Destroy(gameObject);
+    }
+
+    public void FireBullet()
+    {
+        //Create a new bullet at the spaceships position and rotation
+
+        GameObject bullet = Instantiate(BulletPrefab, transform.position, transform.rotation);
+        //Find the bullets rigidbody component
+        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+        //Create a force to push the bullet 'up' from the spaceships facing direction
+        Vector2 force = transform.up * BulletSpeed;
+        rb.AddForce(force);
     }
 }
