@@ -470,6 +470,28 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: EXPLODESpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 17
+        width: 71
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 589850f46c120e7448c1066a5aa48e27
+      internalID: 1562676854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -484,7 +506,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":71.0,"y":100.0},"gridSpriteOffset":{"x":1.0,"y":1.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":71.0,"y":100.0},"gridSpriteOffset":{"x":1.0,"y":1.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":true,"isAlternate":false}'
     nameFileIdTable:
       EXPLODESpriteSheet_0: 586662397
       EXPLODESpriteSheet_1: -24529985
@@ -495,6 +517,7 @@ TextureImporter:
       EXPLODESpriteSheet_14: 726141539
       EXPLODESpriteSheet_15: -713405766
       EXPLODESpriteSheet_16: 396584254
+      EXPLODESpriteSheet_17: 1562676854
       EXPLODESpriteSheet_2: 224085281
       EXPLODESpriteSheet_3: -115007157
       EXPLODESpriteSheet_4: -546009031

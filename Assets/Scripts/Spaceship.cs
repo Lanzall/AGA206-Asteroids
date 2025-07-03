@@ -18,6 +18,9 @@ public class Spaceship : MonoBehaviour
     public float FiringRate = 0.33f;
     private float fireTimer = 0f;
 
+    [Header("Player Explosion")]
+    public GameObject PlayerExplosion;
+
     private Rigidbody2D rb2D;
 
     #endregion
@@ -35,6 +38,11 @@ public class Spaceship : MonoBehaviour
         ApplyThrust(vertical);
         ApplyTorque(horizontal);
         UpdateFiring();
+
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            Explode();
+        }
     }
 
     private void UpdateFiring()
@@ -82,6 +90,7 @@ public class Spaceship : MonoBehaviour
     {
         //Destroy the ship, end the game
         Debug.Log("Game Over");
+        Instantiate(PlayerExplosion, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 
