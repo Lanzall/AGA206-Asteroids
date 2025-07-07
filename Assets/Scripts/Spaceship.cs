@@ -1,3 +1,4 @@
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -23,6 +24,10 @@ public class Spaceship : MonoBehaviour
 
     [Header("Other")]
     GameManager gameManager;
+    Animator animator;
+    public float deathDelay;
+    Camera cam;
+    
 
     private Rigidbody2D rb2D;
 
@@ -32,6 +37,8 @@ public class Spaceship : MonoBehaviour
         rb2D = GetComponent<Rigidbody2D>();
         HealthCurrent = HealthMax;
         gameManager = GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>();
+        animator = GetComponentInChildren<Animator>();
+        cam = Camera.main;
     }
     
     void Update()
@@ -49,7 +56,7 @@ public class Spaceship : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.K))
         {
-            Explode();
+            TakeDamage(100);
         }
     }
 
@@ -92,10 +99,18 @@ public class Spaceship : MonoBehaviour
         //HealthCurrent -= damage;  another way of writing the above
 
         //If current health is zero, then Explode
-        if(HealthCurrent < 1)
+        if(HealthCurrent <= 0)
         {
-            Explode();
+            StartCoroutine(DeathDelay());
         }
+    }
+    IEnumerator DeathDelay()
+    {
+        cam.transform.position = new Vector3(transform.position.x, transform.position.y, -10f);
+        cam.orthographicSize = 4;
+        animator.SetTrigger("Death");
+        yield return new WaitForSeconds(deathDelay);
+        Explode();
     }
 
     public void Explode()
