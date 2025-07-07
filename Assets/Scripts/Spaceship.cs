@@ -106,6 +106,7 @@ public class Spaceship : MonoBehaviour
     }
     IEnumerator DeathDelay()
     {
+        rb2D.bodyType = RigidbodyType2D.Static;
         cam.transform.position = new Vector3(transform.position.x, transform.position.y, -10f);
         cam.orthographicSize = 4;
         animator.SetTrigger("Death");
