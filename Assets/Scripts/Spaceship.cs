@@ -21,6 +21,9 @@ public class Spaceship : MonoBehaviour
     [Header("Player Explosion")]
     public GameObject PlayerExplosion;
 
+    [Header("Other")]
+    GameManager gameManager;
+
     private Rigidbody2D rb2D;
 
     #endregion
@@ -28,10 +31,14 @@ public class Spaceship : MonoBehaviour
     {
         rb2D = GetComponent<Rigidbody2D>();
         HealthCurrent = HealthMax;
+        gameManager = GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>();
     }
     
     void Update()
     {
+        if (gameManager.isPaused)
+            return;
+
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
 
@@ -39,11 +46,16 @@ public class Spaceship : MonoBehaviour
         ApplyTorque(horizontal);
         UpdateFiring();
 
+
         if (Input.GetKeyDown(KeyCode.K))
         {
             Explode();
         }
     }
+
+
+
+
 
     private void UpdateFiring()
     {
