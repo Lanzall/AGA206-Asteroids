@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 3592514619799710043}
   - component: {fileID: 9009500588118558471}
   - component: {fileID: 477765284629739648}
+  - component: {fileID: 1573974117187497073}
   m_Layer: 0
   m_Name: Spaceship
   m_TagString: Untagged
@@ -168,6 +169,7 @@ MonoBehaviour:
   FiringRate: 0.33
   PlayerExplosion: {fileID: 2827246265915917951, guid: 74c5377017ebca244bee067ceadc518e, type: 3}
   deathDelay: 1
+  HitSounds: {fileID: 1573974117187497073}
 --- !u!114 &1717328945252431022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -312,3 +314,20 @@ PolygonCollider2D:
       - {x: -0.32185015, y: -0.29770672}
       - {x: 0.3144495, y: -0.29740065}
   m_UseDelaunayMesh: 0
+--- !u!114 &1573974117187497073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6374169538738898180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0abe50e474b51ac47badbef0059b8a0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioClip:
+  - {fileID: 8300000, guid: c2465cbb0cddfd249aafa6c3920225df, type: 3}
+  - {fileID: 8300000, guid: 985b7a7c0ee36fc46a6995af91fbd18b, type: 3}
+  - {fileID: 8300000, guid: 03bb906721c08da49ae3e8f681284523, type: 3}
+  - {fileID: 8300000, guid: f4021c6c0dc7ac14aa63162acf146a63, type: 3}

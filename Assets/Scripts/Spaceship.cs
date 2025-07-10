@@ -27,6 +27,9 @@ public class Spaceship : MonoBehaviour
     Animator animator;
     public float deathDelay;
     Camera cam;
+
+    [Header("Sound")]
+    public SoundPlayer HitSounds;
     
 
     private Rigidbody2D rb2D;
@@ -95,8 +98,10 @@ public class Spaceship : MonoBehaviour
     {
         //Reduce the current health
         HealthCurrent = HealthCurrent - damage;
-       
+
         //HealthCurrent -= damage;  another way of writing the above
+
+        HitSounds.PlayRandomSound();
 
         //If current health is zero, then Explode
         if(HealthCurrent <= 0)

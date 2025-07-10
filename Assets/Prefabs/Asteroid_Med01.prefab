@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 4170669572576818537}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.98, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -193,13 +193,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5799ee0b2e18ddf4b9bb7187434e27af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SpawnValue: 2
   CollisionDamge: 1
   HealthMax: 1
   HealthCurrent: 0
+  ChunksMin: 0
+  ChunksMax: 4
   Chunks:
   - {fileID: 1405332931236436792, guid: 83231b2a0b49c7242af62eaff3151e74, type: 3}
   - {fileID: 1473063071138985753, guid: 0b96f1f75fe99ab429cee25181ff4232, type: 3}
   - {fileID: 4542954794689509102, guid: 721519aa721f189498b40d600fb8b160, type: 3}
+  ExplodeDist: 0.5
+  ExplosionForce: 10
 --- !u!114 &6267787985917376443
 MonoBehaviour:
   m_ObjectHideFlags: 0
