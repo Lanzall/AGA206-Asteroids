@@ -33,7 +33,9 @@ public class Spaceship : MonoBehaviour
 
     [Header("UI")]
     public ScreenFlash Flash;
-    
+    public CameraShake CameraShake;
+    public float ShakeDuration = .15f;
+
 
     private Rigidbody2D rb2D;
 
@@ -106,10 +108,16 @@ public class Spaceship : MonoBehaviour
 
         HitSounds.PlayRandomSound();
 
+        //If current health isn't Zero, shake the camera
+        if (HealthCurrent > 0)
+        {
+            StartCoroutine(CameraShake.ShakeRoutine(ShakeDuration, .4f));
+        }
+
         StartCoroutine(Flash.FlashRoutine());
 
         //If current health is zero, then Explode
-        if(HealthCurrent <= 0)
+        if (HealthCurrent <= 0)
         {
             StartCoroutine(DeathDelay());
         }
