@@ -169,11 +169,13 @@ MonoBehaviour:
   BulletSpeed: 100
   FiringRate: 0.33
   PlayerExplosion: {fileID: 2827246265915917951, guid: 74c5377017ebca244bee067ceadc518e, type: 3}
+  Score: 0
   deathDelay: 1
   HitSounds: {fileID: 1573974117187497073}
   Flash: {fileID: 0}
   CameraShake: {fileID: 0}
   ShakeDuration: 0.15
+  GameOverUI: {fileID: 0}
 --- !u!114 &1717328945252431022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,7 +211,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

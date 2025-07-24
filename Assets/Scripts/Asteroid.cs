@@ -17,6 +17,9 @@ public class Asteroid : MonoBehaviour
     public float ExplodeDist = 0.5f;
     public float ExplosionForce = 10f;
 
+    [Header("Game Scores")]
+    public int ScoreValue = 10;
+
     private void Start()
     {
         HealthCurrent = HealthMax;
@@ -55,6 +58,13 @@ public class Asteroid : MonoBehaviour
 
     public void Explode()
     {
+        Spaceship ship = FindFirstObjectByType<Spaceship>();
+        if (ship != null)
+        {
+            ship.Score += ScoreValue;
+        }
+
+
         int numChunks = Random.Range(ChunksMin, ChunksMax + 1);
 
         for (int i = 0; i < numChunks; i++)

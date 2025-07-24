@@ -22,6 +22,9 @@ public class Spaceship : MonoBehaviour
     [Header("Player Explosion")]
     public GameObject PlayerExplosion;
 
+    [Header("Game Scoring")]
+    public int Score = 0;
+
     [Header("Other")]
     GameManager gameManager;
     Animator animator;
@@ -35,6 +38,7 @@ public class Spaceship : MonoBehaviour
     public ScreenFlash Flash;
     public CameraShake CameraShake;
     public float ShakeDuration = .15f;
+    public GameOverUI GameOverUI;
 
 
     private Rigidbody2D rb2D;
@@ -61,6 +65,10 @@ public class Spaceship : MonoBehaviour
         ApplyTorque(horizontal);
         UpdateFiring();
 
+        if (Input.GetKeyDown(KeyCode.Delete))
+        {
+            PlayerPrefs.DeleteAll();
+        }
 
         if (Input.GetKeyDown(KeyCode.K))
         {
@@ -68,9 +76,26 @@ public class Spaceship : MonoBehaviour
         }
     }
 
+    public int GetHighScore()
+    {
+        return PlayerPrefs.GetInt("Hiscore", 0);
+    }
 
+    public void SetHighScore(int score)
+    {
+        PlayerPrefs.SetInt("Hiscore", score);
+    }
 
-
+    public void GameOver()
+    {
+        bool celebrateHiScore = false;
+        if (Score > GetHighScore() && celebrateHiScore == false)
+        {
+            SetHighScore(Score);
+            celebrateHiScore = true;
+        }
+        GameOverUI.Show(celebrateHiScore, Score, GetHighScore());
+    }
 
     private void UpdateFiring()
     {
@@ -136,6 +161,7 @@ public class Spaceship : MonoBehaviour
     {
         //Destroy the ship, end the game
         Debug.Log("Game Over");
+        GameOver();
         Instantiate(PlayerExplosion, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
