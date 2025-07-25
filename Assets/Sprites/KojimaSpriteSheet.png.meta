@@ -1,0 +1,5915 @@
+fileFormatVersion: 2
+guid: b3444f3f73810c146adbdd2f27ebb9d0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1650
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b46444e883a7ec41bebf5e227e5334a
+      internalID: -1260541142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1650
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94faebe84b4415a4abdf12f3ad08c182
+      internalID: 657046545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1650
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7528cf2065bc8154e9d9203306d84211
+      internalID: 1117735739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1650
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1606faacbb59799468fa97a2646cd65d
+      internalID: 1502357310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1650
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e0d7384b73f17419f1b31fa88b3e99
+      internalID: 210252301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1650
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ed6fabc09421b46bb9ecf33dc7fce5
+      internalID: -151178971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1650
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19fd594ca019c54aa66b64cd18adaae
+      internalID: 370792536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1650
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456077263a47c1c40811563d4d676ea7
+      internalID: 1447175723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1650
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685d71f7bf8f05946bb1bb4cab99ab3b
+      internalID: 376895457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1650
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1dac350fb9a514a9178e797fcd3c86
+      internalID: -2093372123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1650
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f303a12a190f671408e00c218f6514f8
+      internalID: -440653302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1650
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20dd452836d50b045a30072d052b55de
+      internalID: -1072063152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1650
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5a140fbbb0dcf4f9e80e74b8484a70
+      internalID: -1895613121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1650
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78029972e05803149b305e6cc3be4a67
+      internalID: -4792716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1650
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4453f43411dccbb4d99ca114cd485f4c
+      internalID: -437069872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1650
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2c25c1763ec01479d54a2e0e05f1a5
+      internalID: 901033133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1540
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5abde5f98065a40b9278b8e4166553
+      internalID: -1952298226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1540
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfaf8a1f12b819458651f05b8d42cc4
+      internalID: -1651502801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1540
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea5226a5d2f76641ac86734746763db
+      internalID: -1986416568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1540
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1056f8b37d6275e489168e98a917b9c9
+      internalID: 483501080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1540
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a8b84a1b937d84986bfd34a0ceed52
+      internalID: 1311505903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1540
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893a60304f5bb72488df4c0069a90ddc
+      internalID: -1678814766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1540
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa9a6e7057034744939480949fc1786
+      internalID: -1158609027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1540
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f85d62d4d5b1bb4b9f87e067a5cf3ac
+      internalID: -225776107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1540
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f039f61c87d01c4183194b2051e67a4
+      internalID: 1737640057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1540
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9640faf7d902c24593eebe63b3424e9
+      internalID: -1116527510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1540
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e828feb4962ad84f83a66fa4152a5d5
+      internalID: 1656904246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1540
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0512e9f80b393dc4cbd6b33a36af8a39
+      internalID: 335918735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1540
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4525c7ec30da3354a81ad739e3f80240
+      internalID: -771686941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1540
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6478dbd2436be49a47e3b2f15536de
+      internalID: -583132007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1540
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ec4a2ea84679742a429ac18723d648
+      internalID: -1170802130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1540
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649dc7cccd5f3044fa8d77b245db0270
+      internalID: 110886933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1430
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67307d0003492d94bae4607952d5bbcb
+      internalID: 213816732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1430
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a3f5429f97e6946bc6911869af95ce
+      internalID: 344857868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1430
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c438cacee73da49a94f6136de1c512
+      internalID: 1498629966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1430
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d76766dccb7d84a9b0f50accbf7d53
+      internalID: 1913206910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1430
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a074f3f4c12038418dc801b54d2883b
+      internalID: 315696386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1430
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e550ba5f1175b468b781eb89a4da02
+      internalID: 1160003420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1430
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d853cacd344ba4295bbe5b94fa61fc
+      internalID: -1049991260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1430
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8456b4282121e264f8f3fb50fa718a0e
+      internalID: 1407082230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1430
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a4b2c9e7560854389738a7dcf34f07
+      internalID: -635192532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1430
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7b520a60acef94fad3b63215e3b783
+      internalID: -883728687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1430
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a272e25211d2244b1284071c0cae13
+      internalID: 1771274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1430
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39717ec13cc1fd54cacfedfac1f325db
+      internalID: -508910220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1430
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89622ca7a90cde348850a044291dcb49
+      internalID: 873973784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1430
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2460980981793a4ea0752b4a52400f9
+      internalID: 1012509513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1430
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79eb54167bc1de4784ca79154ece088
+      internalID: 1717033902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1430
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1b822834be0c44e8687a41bcf062aa
+      internalID: 185710247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1320
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d4e456a3872a640ae87589f62275a0
+      internalID: -1217172530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1320
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f198fbdc5a11c4c9a32c65290a0eed
+      internalID: -1086772423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1320
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb9c8d94a6903742b0e8be38a290e0e
+      internalID: 1514347125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1320
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f8eb96269d4994e863baa84f266282
+      internalID: -2134208490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1320
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb4b55c38f4de049ad04fd3417346f2
+      internalID: 283290027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1320
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e32ae5354c16c43804ff1d933d7c65
+      internalID: -1088519077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1320
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa100997ddc6184f8ea4ab409d55863
+      internalID: 1001118090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1320
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a636195bfe28aa4fa8ef67a75020cc4
+      internalID: -83439216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1320
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1a13e6d534cf843a6402ff4c5b7069
+      internalID: 1128647066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1320
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0179468b08301c245acd1f0935d38d6f
+      internalID: 520668642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1320
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f15fc64c89fee2488d3b77885866efc
+      internalID: 439913580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1320
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bf5b325ba406147a2a3ae43b695df2
+      internalID: -3170403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1320
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4366137d1cf2b32459fa473c1ccbfb7b
+      internalID: 980767333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1320
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50648df6e30b2204c9efefcf6a3e1674
+      internalID: -1833255163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1320
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4121a726b67b5774cbca9188864f32c8
+      internalID: -778163973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1320
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade8b8743995a114ab5e9a4674dd25f2
+      internalID: -182270324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1210
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f972b8008f3254fbb06225d1c85449
+      internalID: -80439779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1210
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac6f325812366544b4c15422663f11e
+      internalID: 416682026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1210
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462a66d72da70764dbe07729d0122f16
+      internalID: -1105924966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1210
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4de18e450096345b262d3f51443815
+      internalID: 735587835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1210
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da9d1b5dafd2cf468d6a40259d53a12
+      internalID: 1543747710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1210
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e46d416f1188e641af688257a1e766b
+      internalID: -2020434986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1210
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed684e0bc9bfd9e43866821ea340e2d1
+      internalID: -158339609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1210
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d991e9d75d3c944a95682e67cb261a9
+      internalID: 229482852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1210
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d473c85822b0af43937aca26b060f1c
+      internalID: -497978314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1210
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b22649acb7bfb4fa3e97fb42f5a73b
+      internalID: 209725081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1210
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a741640a5405049b1fcb73473d175a
+      internalID: 219841806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1210
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a6304ed80066d41bbcb0fbd7074160
+      internalID: -499317318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1210
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed1a752e0fffc34d9dd156419e28540
+      internalID: -1795274222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1210
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bf2deb7ed4caf4fb81e7fa6b6fc279
+      internalID: 462863060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1210
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f64599029f8eaa49b5419f4b6b5c47b
+      internalID: -1235207257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_79
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1210
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7c164762838be4a9645d99245b899c
+      internalID: -1064606389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1100
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b310a3037fee4a4fb97d84826b87967
+      internalID: -2051019472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_81
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1100
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c52e94471dbe524f9106ed62bea3aef
+      internalID: -581603186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_82
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1100
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624fcba38da72324b86eb5297bb7dcf1
+      internalID: 285910150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_83
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1100
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fedc2f9d674a6d478514baf00baa3ad
+      internalID: -171433270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_84
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1100
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208abb32b6083f841a0ea73865193928
+      internalID: 662841018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_85
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1100
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30c8523e503ad8448447be93d3fa83b
+      internalID: 937581061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_86
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1100
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09086a7eff37f6a4098780fd90435ebd
+      internalID: -725173282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_87
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1100
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a1310d348496445b1fa31c97fcbea5
+      internalID: 1377697383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_88
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1100
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8264c6b8971ed429e632934161508c
+      internalID: 460084982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_89
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1100
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be2ddce6a93dd646b1c17a772d7d918
+      internalID: -1336301638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_90
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1100
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8e1c055cf0a2548904fb401394b964
+      internalID: -2082688079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_91
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1100
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185a7623d390ea441b096ef2767f9560
+      internalID: 1677601322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_92
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1100
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4cf3b18226dad14b87a12345bd0f2c0
+      internalID: -340785610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_93
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1100
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4e34fe801b6d2409b6589729717074
+      internalID: -948877927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_94
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1100
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b429fec228a2de4fa68437fcebb0a0f
+      internalID: 1776376459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_95
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1100
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e836a26ce5066a8498b7d0b4e1ccc37d
+      internalID: -455176621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 990
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c09a5790a802341a2c61c679978d6d
+      internalID: -361816018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_97
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 990
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f28db4f7a91d5479a7f251b23d3adc
+      internalID: 786869841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_98
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 990
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26bb071c0bcde54cb9a40ff03af8c73
+      internalID: -507920686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_99
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 990
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802530cde474d1142af1309e8edb8eb8
+      internalID: -327024588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_100
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 990
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a265bc48d5e811a46aecb24b7456f050
+      internalID: -340704362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_101
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 990
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea4ea240f39fd3448f395b73f183832
+      internalID: -1307810203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_102
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 990
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e627f36b75060a34fb2deab8edc97cdc
+      internalID: 1614564500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_103
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 990
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e92311a0d6bd04fb5a5147b88a8d75
+      internalID: 433889219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_104
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 990
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c397e42d2a1b52e4e89e26cec8fe2de9
+      internalID: -261349644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_105
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 990
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfce3955ac329ef4db1117dfd7057804
+      internalID: 1684677546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_106
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 990
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb964686edf618f428757b656c8c7a84
+      internalID: -457372908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_107
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 990
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15de6762fca3ea74c920c5b427e2845d
+      internalID: -991256244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_108
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 990
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b43f80ed4e4e244a56fc8326408b3c
+      internalID: -542596816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_109
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 990
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432490b9b7c63a447bc80e120afacafc
+      internalID: 1594205620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_110
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 990
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce33b35b207447448a7f35d646a0f8df
+      internalID: -764716654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_111
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 990
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86664049292af2438a97f9585193c99
+      internalID: 38186293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 880
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9294a7e642e6e2544b482e2f16773958
+      internalID: 1214243028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_113
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 880
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4f750468e227b47af3eee657cabc03
+      internalID: -1226338339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_114
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 880
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e3cf9d08c10d541b2189cb4c4df667
+      internalID: 1197055731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_115
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 880
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d80aca5e7a97448a08f14713ff7a3c
+      internalID: -451107604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_116
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 880
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62268c0b6a666ea4bbaff156ca681ede
+      internalID: -1232985381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_117
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 880
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41591f6aa741d84f8f6d129d54b299c
+      internalID: -668789478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_118
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 880
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216117237dd9e9f4694e73bdce00a674
+      internalID: 985363887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_119
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 880
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792a4a185d3286e4d9c0fff0efd9426f
+      internalID: -1415210175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_120
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 880
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354d5843f3c661148bdc6cfe1cbccfb3
+      internalID: 1591536849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_121
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 880
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2e88eb2a5dc7b419e696c419ff11e6
+      internalID: 425841511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_122
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 880
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a93e01a549f3347867a737b6e26c5c
+      internalID: 405785374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_123
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 880
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b62d35f14597f419c1c7dd0e697e51
+      internalID: 1720090323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_124
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 880
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4212a6197e10d6a4d97ed81d9595e5c9
+      internalID: -1336420261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_125
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 880
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc78b5965db72fe4abc715e15b45c413
+      internalID: 657697206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_126
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 880
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377badfc656f96d49ab0c8ab53977bf6
+      internalID: -1595805727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_127
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 880
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d5e13df962a4d47b854a277fdf952e
+      internalID: -794728311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 770
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e5886a875df3c41b124bb7dc3c8855
+      internalID: 49734831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_129
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 770
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4794492be66c95640a529ab15676010d
+      internalID: 1531418463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_130
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 770
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4519e34ccf6380c4e98c79350eadcbb1
+      internalID: 1764032494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_131
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 770
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996781c7e8a462c44801f6bacae76e95
+      internalID: 81330659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_132
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 770
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0808d2870e9e7fd4190b403da2e6b9c5
+      internalID: 1870636055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_133
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 770
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680c42f4313f11a4f8fcfe944fba2e8f
+      internalID: -2049247414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_134
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 770
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb00e90800c4f4419e39d7f0e686fcf
+      internalID: -1544507547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_135
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 770
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba4fba31c73f35498778a9eeac4fcc9
+      internalID: 1181681097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_136
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 770
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbba973beba70584d9a6934370b075ab
+      internalID: 938413731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_137
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 770
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5b0a87b37855a4a986239637b75b0b
+      internalID: 1767645890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_138
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 770
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b503d96760448746b520a518e93aa38
+      internalID: 908141350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_139
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 770
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fc287e01c545641b0fdd05a73453e1
+      internalID: 2046548423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_140
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 770
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066c64a5f37103e4bbed1a9de519406b
+      internalID: 1816392726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_141
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 770
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd3dcd1ffded134e99d5ca46047518c
+      internalID: 758933178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_142
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 770
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0899b1bc33f6b1740afafccb81d6fdc9
+      internalID: -1822536109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_143
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 770
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e5de8a60ce4d84b9e36717acaf5cb1
+      internalID: 265426323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 660
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4b2c0e7a73e974094354b0b389f929
+      internalID: 1206260259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_145
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 660
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8b59733bbbb954b91cdbb60455588b
+      internalID: -2013837465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_146
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 660
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5819c0403a4ff4dabfe4876d276860
+      internalID: -576091717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_147
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 660
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dc2551562c9c94d90dad7494f3a3fd
+      internalID: 1581250668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_148
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 660
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a845acef3bb73b14aa29d714a25d2b1e
+      internalID: -1802894527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_149
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 660
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493d48aa29a4e6d4090e4be4fff8c19a
+      internalID: -1633143863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_150
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 660
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb733b753f36964780b0a0f10df38af
+      internalID: -1049527282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_151
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 660
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb066e1d4b790434fa8199170a8c0690
+      internalID: 567106091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_152
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 660
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd64eb7873dc3e64aa994944fe17c51b
+      internalID: 294306761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_153
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 660
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0637ab0f6dca71849bb5539b8c662c27
+      internalID: 679501075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_154
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 660
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5933ba935e9c75f43b958739c393c308
+      internalID: -673841065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_155
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 660
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103a7a7c04941c04a98d79feec9f5937
+      internalID: -114891367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_156
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 660
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7870bb7082e03f24fa343200765af064
+      internalID: 95962879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_157
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 660
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db25aecfd8096304595657340ecbf0dd
+      internalID: 197816253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_158
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 660
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9010287510bf5234d858fc2d16289bfb
+      internalID: 1750786356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_159
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 660
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c101e77c736c744ba19e5ec74fc3b37
+      internalID: 1785760537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 550
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f9e8a0e859b4243abcbae766ae3f0b
+      internalID: -204064945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_161
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 550
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea356395886fdd479d4bf3e925d6298
+      internalID: -1106362412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_162
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 550
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9ddde11ef571d4181ec0a59243e40c
+      internalID: 273747261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_163
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 550
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9c3c4a68f6fa24487070d0a2c49809
+      internalID: 702113065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_164
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 550
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28af4bbec907e30498a8b80c201d4999
+      internalID: -2044506215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_165
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 550
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e53c128d8e8a74e8e340abaa5ff7ac
+      internalID: -1971864517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_166
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 550
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd689dea91cc87a4fa52adcc1ec1ef09
+      internalID: -2054561246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_167
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 550
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff881b9e3410c1a449b128ceb7e757dc
+      internalID: -56239377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_168
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 550
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609732f82122bc64483df5cfe6ea53a9
+      internalID: -2031268506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_169
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 550
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad946b3b857345419418855194d5275
+      internalID: 1065977186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_170
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 550
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44424c5c768192045bd0b467fdba29c2
+      internalID: 832710661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_171
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 550
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55daf0b6e508bd347a2c2cd1ee651f60
+      internalID: -848950022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_172
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 550
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea49b43dd0530d429940b6eb96f9d06
+      internalID: 895926621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_173
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 550
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0175dafd9c08e8b4f8767a694d0b051e
+      internalID: 850338838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_174
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 550
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78cb99afd78cd449a5eb327f62f21bd
+      internalID: -1160200241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_175
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 550
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d92ed5429103f469e127d39894cd57
+      internalID: -1958329358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cfc5fa46a74e64e8c44505a73b3c48
+      internalID: 1567880283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_177
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 440
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e3b1e982229d849b5d6f6698b01de1
+      internalID: -1843509459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_178
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 440
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc4adb552d5e624aaf4cac864e1336e
+      internalID: 734654469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_179
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 440
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1355b030e83704688d3fe21863c00a
+      internalID: 555315496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_180
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 440
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50414f374ec3be4cb1f9f5b76a7d979
+      internalID: -1607004269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_181
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 440
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206226e89b4b79841832a9c292e85748
+      internalID: -996852569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_182
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 440
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e3b166a834cc44da48e0690e186338
+      internalID: 189306432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_183
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 440
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcba6e079b64f3245ba763e918f00eb9
+      internalID: 103445710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_184
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 440
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1209f8b3185124e9a7fd4ae501888d
+      internalID: 815615232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_185
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 440
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d40ab63041fe3cd498c047e5b8df9739
+      internalID: 562376859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_186
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 440
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e98a52cf89f2947abe48048e7cbe0a
+      internalID: 851158590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_187
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 440
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da041349a969bc4bb75e4e5173ca7d2
+      internalID: 778573597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_188
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 440
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a6a31a46e1ac548a62ec4c1b25664b
+      internalID: -1881594339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_189
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 440
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3846716c3cfa342889202c8316c344
+      internalID: -1422632523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_190
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 440
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20729116cf1b9c94e8c56ef7e7edac00
+      internalID: -1665306914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_191
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 440
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e988489557f8a744bb3c306e5233c94b
+      internalID: -1488145447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7243eeb2b9d2eaf44be998b43469d3e3
+      internalID: -246100857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_193
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 330
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef0f81726aef2f4b9295716a4da221c
+      internalID: -474754342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_194
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 330
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f176f3de4f8eec341a13c8cbb9599ca3
+      internalID: 2114613065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_195
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 330
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0ba7588f51e924499f6b10a6e6358c
+      internalID: 2025633881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_196
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 330
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34387a32a0e32554386796316cdf6981
+      internalID: 1696880964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_197
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 330
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8995ed2d8649c94f8e4205a70d19865
+      internalID: -757757790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_198
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 330
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30471affbf0ae094187e8beccde9f10e
+      internalID: 1156971541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_199
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 330
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91daa09a33dfcbb42ad30f954b112875
+      internalID: 1515091608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_200
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 330
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a49734152c38e4e98c85fcc8653e75
+      internalID: 1137711733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_201
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 330
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7616c62aa77fee4e84bfe11fe57f6c5
+      internalID: -1592938939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_202
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 330
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d972101845f5ff949b2806e8f876da40
+      internalID: 831392319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_203
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 330
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56cbd64ab33c8dd4baae33c3122b8881
+      internalID: -1431489404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_204
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 330
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505b035669ead834daab16b3d885692e
+      internalID: -2074170877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_205
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 330
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e87213de62ad646b3b591a4a1f7db3
+      internalID: -301808662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_206
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 330
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a35d313586bd64c95c6944f9bc4b8c
+      internalID: 810072904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_207
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 330
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1cba13e24beeb4eaa06b2bed7f1cf9
+      internalID: 1066884740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_208
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a92ac258efd6414e98e0ab204fd13fd
+      internalID: 1235869054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_209
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 220
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4f0824bbd7cc2642b6b8d8a75f677b1
+      internalID: -1888706942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_210
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 220
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c848de7dd6869e47a493c02a3b976b3
+      internalID: 1994944176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_211
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 220
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91e872051c9e204b84358a21d497066
+      internalID: 1134105828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_212
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 220
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b73cb67dec5ae4f9f67423be2022f2
+      internalID: 1246557869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_213
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 220
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8decae6d7fc4f7847819fea712727161
+      internalID: 1764287189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_214
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 220
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836e93c0b8fc7ce4d9d7a9f2bad88353
+      internalID: 1007371913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_215
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 220
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743e99c3a3f56e64da25e554368e1f6f
+      internalID: -1023915549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_216
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 220
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00525c0077e5cd94fa60b15e9aed645c
+      internalID: 1249812093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_217
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 220
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81330026c8fc824daee6ec639e7280f
+      internalID: -1520925546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_218
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 220
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb4c696641903741922ec6b2e1f4095
+      internalID: -343679260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_219
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 220
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4444cda15cf314595e06f09eb1d3c6
+      internalID: -1734530514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_220
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 220
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aeb8bcb05d6ab641a852c53d3c42d16
+      internalID: -78721178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_221
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 220
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88af3495fabbc374d9194dd40df4ed7c
+      internalID: 1284042782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_222
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 220
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae8b30b8b280c94c9038dc7918feff0
+      internalID: 1660825573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_223
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 220
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e93b143ae5285d4a85737ad5e3d57ca
+      internalID: -1135986185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 110
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95590cc333c58ae4bae3141aba6d670c
+      internalID: -227121606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_225
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 110
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e98110a6054c44689e0e99ae690918
+      internalID: 791614649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_226
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 110
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf4be960f16dc04a83a79372d78159d
+      internalID: 568050108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_227
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 110
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7750c309eb7f51f498a60af45b359fda
+      internalID: -34749203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_228
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 110
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477f41de4ea7ed041af275a4553da646
+      internalID: 2070760440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_229
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 110
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05e1f237a264364082ba6861c547858
+      internalID: 35966719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_230
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 110
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af16b23abe6d8e4f9531a4ad5143817
+      internalID: 266874920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_231
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 110
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107c40a6bcf98e4408355e4b20e0e51b
+      internalID: -1524802636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_232
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 110
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2437d596a5b7b864ead84c629d804fc6
+      internalID: -507298801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_233
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 110
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59c0edef8bd38d45b73335ece07d278
+      internalID: -379876186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_234
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 110
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ac980ab071b774f848a615e478f396
+      internalID: -6756423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_235
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 110
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ce7ba94c6bad74283c679b422cd2a3
+      internalID: -975992965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_236
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 110
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc9f95593a7f2246813086345139afb
+      internalID: -194152189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_237
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 110
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ead7b6dd4d73674893836b5949f8475
+      internalID: -1101137049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_238
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 110
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1e49ef54de45444969860430106d69
+      internalID: -1064343372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_239
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 110
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f2f42ae56f2434bbba3a5c310d8df8
+      internalID: -754034614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc169a5192fe034eb09cdf7e5c3ea40
+      internalID: -541969877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_241
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019ac4d477d493c40ae5bbb3b0246b7a
+      internalID: 693197588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_242
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12a10fdb7c0b534bb48e1cd53fec552
+      internalID: -2041349809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_243
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84916769f4727c4a8df64797686299d
+      internalID: -1312865262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_244
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58b61d36f522d04fa5ca89f89377e22
+      internalID: 823528490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_245
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e875129c7fed347bf958649f28b33b
+      internalID: 1386522968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_246
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b2f53b754b4d8468a64685b60db97a
+      internalID: -478201853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_247
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d312a4cc0df8f42905df094f41c3aa
+      internalID: 1731603438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_248
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e0479c99b0d624485876ebc39a2b23
+      internalID: -1515637727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_249
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4a09fa3733abe43856d227ac58c1e3
+      internalID: 331757706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_250
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4fb24f37d00613498722296b984d052
+      internalID: -2017182379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KojimaSpriteSheet_251
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605b4f72440e0b34e9bbd30046111583
+      internalID: -479499256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fa81dc74f847b1b47bfbe0de556805e9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":80.0,"y":110.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      KojimaSpriteSheet_0: -1260541142
+      KojimaSpriteSheet_1: 657046545
+      KojimaSpriteSheet_10: -440653302
+      KojimaSpriteSheet_100: -340704362
+      KojimaSpriteSheet_101: -1307810203
+      KojimaSpriteSheet_102: 1614564500
+      KojimaSpriteSheet_103: 433889219
+      KojimaSpriteSheet_104: -261349644
+      KojimaSpriteSheet_105: 1684677546
+      KojimaSpriteSheet_106: -457372908
+      KojimaSpriteSheet_107: -991256244
+      KojimaSpriteSheet_108: -542596816
+      KojimaSpriteSheet_109: 1594205620
+      KojimaSpriteSheet_11: -1072063152
+      KojimaSpriteSheet_110: -764716654
+      KojimaSpriteSheet_111: 38186293
+      KojimaSpriteSheet_112: 1214243028
+      KojimaSpriteSheet_113: -1226338339
+      KojimaSpriteSheet_114: 1197055731
+      KojimaSpriteSheet_115: -451107604
+      KojimaSpriteSheet_116: -1232985381
+      KojimaSpriteSheet_117: -668789478
+      KojimaSpriteSheet_118: 985363887
+      KojimaSpriteSheet_119: -1415210175
+      KojimaSpriteSheet_12: -1895613121
+      KojimaSpriteSheet_120: 1591536849
+      KojimaSpriteSheet_121: 425841511
+      KojimaSpriteSheet_122: 405785374
+      KojimaSpriteSheet_123: 1720090323
+      KojimaSpriteSheet_124: -1336420261
+      KojimaSpriteSheet_125: 657697206
+      KojimaSpriteSheet_126: -1595805727
+      KojimaSpriteSheet_127: -794728311
+      KojimaSpriteSheet_128: 49734831
+      KojimaSpriteSheet_129: 1531418463
+      KojimaSpriteSheet_13: -4792716
+      KojimaSpriteSheet_130: 1764032494
+      KojimaSpriteSheet_131: 81330659
+      KojimaSpriteSheet_132: 1870636055
+      KojimaSpriteSheet_133: -2049247414
+      KojimaSpriteSheet_134: -1544507547
+      KojimaSpriteSheet_135: 1181681097
+      KojimaSpriteSheet_136: 938413731
+      KojimaSpriteSheet_137: 1767645890
+      KojimaSpriteSheet_138: 908141350
+      KojimaSpriteSheet_139: 2046548423
+      KojimaSpriteSheet_14: -437069872
+      KojimaSpriteSheet_140: 1816392726
+      KojimaSpriteSheet_141: 758933178
+      KojimaSpriteSheet_142: -1822536109
+      KojimaSpriteSheet_143: 265426323
+      KojimaSpriteSheet_144: 1206260259
+      KojimaSpriteSheet_145: -2013837465
+      KojimaSpriteSheet_146: -576091717
+      KojimaSpriteSheet_147: 1581250668
+      KojimaSpriteSheet_148: -1802894527
+      KojimaSpriteSheet_149: -1633143863
+      KojimaSpriteSheet_15: 901033133
+      KojimaSpriteSheet_150: -1049527282
+      KojimaSpriteSheet_151: 567106091
+      KojimaSpriteSheet_152: 294306761
+      KojimaSpriteSheet_153: 679501075
+      KojimaSpriteSheet_154: -673841065
+      KojimaSpriteSheet_155: -114891367
+      KojimaSpriteSheet_156: 95962879
+      KojimaSpriteSheet_157: 197816253
+      KojimaSpriteSheet_158: 1750786356
+      KojimaSpriteSheet_159: 1785760537
+      KojimaSpriteSheet_16: -1952298226
+      KojimaSpriteSheet_160: -204064945
+      KojimaSpriteSheet_161: -1106362412
+      KojimaSpriteSheet_162: 273747261
+      KojimaSpriteSheet_163: 702113065
+      KojimaSpriteSheet_164: -2044506215
+      KojimaSpriteSheet_165: -1971864517
+      KojimaSpriteSheet_166: -2054561246
+      KojimaSpriteSheet_167: -56239377
+      KojimaSpriteSheet_168: -2031268506
+      KojimaSpriteSheet_169: 1065977186
+      KojimaSpriteSheet_17: -1651502801
+      KojimaSpriteSheet_170: 832710661
+      KojimaSpriteSheet_171: -848950022
+      KojimaSpriteSheet_172: 895926621
+      KojimaSpriteSheet_173: 850338838
+      KojimaSpriteSheet_174: -1160200241
+      KojimaSpriteSheet_175: -1958329358
+      KojimaSpriteSheet_176: 1567880283
+      KojimaSpriteSheet_177: -1843509459
+      KojimaSpriteSheet_178: 734654469
+      KojimaSpriteSheet_179: 555315496
+      KojimaSpriteSheet_18: -1986416568
+      KojimaSpriteSheet_180: -1607004269
+      KojimaSpriteSheet_181: -996852569
+      KojimaSpriteSheet_182: 189306432
+      KojimaSpriteSheet_183: 103445710
+      KojimaSpriteSheet_184: 815615232
+      KojimaSpriteSheet_185: 562376859
+      KojimaSpriteSheet_186: 851158590
+      KojimaSpriteSheet_187: 778573597
+      KojimaSpriteSheet_188: -1881594339
+      KojimaSpriteSheet_189: -1422632523
+      KojimaSpriteSheet_19: 483501080
+      KojimaSpriteSheet_190: -1665306914
+      KojimaSpriteSheet_191: -1488145447
+      KojimaSpriteSheet_192: -246100857
+      KojimaSpriteSheet_193: -474754342
+      KojimaSpriteSheet_194: 2114613065
+      KojimaSpriteSheet_195: 2025633881
+      KojimaSpriteSheet_196: 1696880964
+      KojimaSpriteSheet_197: -757757790
+      KojimaSpriteSheet_198: 1156971541
+      KojimaSpriteSheet_199: 1515091608
+      KojimaSpriteSheet_2: 1117735739
+      KojimaSpriteSheet_20: 1311505903
+      KojimaSpriteSheet_200: 1137711733
+      KojimaSpriteSheet_201: -1592938939
+      KojimaSpriteSheet_202: 831392319
+      KojimaSpriteSheet_203: -1431489404
+      KojimaSpriteSheet_204: -2074170877
+      KojimaSpriteSheet_205: -301808662
+      KojimaSpriteSheet_206: 810072904
+      KojimaSpriteSheet_207: 1066884740
+      KojimaSpriteSheet_208: 1235869054
+      KojimaSpriteSheet_209: -1888706942
+      KojimaSpriteSheet_21: -1678814766
+      KojimaSpriteSheet_210: 1994944176
+      KojimaSpriteSheet_211: 1134105828
+      KojimaSpriteSheet_212: 1246557869
+      KojimaSpriteSheet_213: 1764287189
+      KojimaSpriteSheet_214: 1007371913
+      KojimaSpriteSheet_215: -1023915549
+      KojimaSpriteSheet_216: 1249812093
+      KojimaSpriteSheet_217: -1520925546
+      KojimaSpriteSheet_218: -343679260
+      KojimaSpriteSheet_219: -1734530514
+      KojimaSpriteSheet_22: -1158609027
+      KojimaSpriteSheet_220: -78721178
+      KojimaSpriteSheet_221: 1284042782
+      KojimaSpriteSheet_222: 1660825573
+      KojimaSpriteSheet_223: -1135986185
+      KojimaSpriteSheet_224: -227121606
+      KojimaSpriteSheet_225: 791614649
+      KojimaSpriteSheet_226: 568050108
+      KojimaSpriteSheet_227: -34749203
+      KojimaSpriteSheet_228: 2070760440
+      KojimaSpriteSheet_229: 35966719
+      KojimaSpriteSheet_23: -225776107
+      KojimaSpriteSheet_230: 266874920
+      KojimaSpriteSheet_231: -1524802636
+      KojimaSpriteSheet_232: -507298801
+      KojimaSpriteSheet_233: -379876186
+      KojimaSpriteSheet_234: -6756423
+      KojimaSpriteSheet_235: -975992965
+      KojimaSpriteSheet_236: -194152189
+      KojimaSpriteSheet_237: -1101137049
+      KojimaSpriteSheet_238: -1064343372
+      KojimaSpriteSheet_239: -754034614
+      KojimaSpriteSheet_24: 1737640057
+      KojimaSpriteSheet_240: -541969877
+      KojimaSpriteSheet_241: 693197588
+      KojimaSpriteSheet_242: -2041349809
+      KojimaSpriteSheet_243: -1312865262
+      KojimaSpriteSheet_244: 823528490
+      KojimaSpriteSheet_245: 1386522968
+      KojimaSpriteSheet_246: -478201853
+      KojimaSpriteSheet_247: 1731603438
+      KojimaSpriteSheet_248: -1515637727
+      KojimaSpriteSheet_249: 331757706
+      KojimaSpriteSheet_25: -1116527510
+      KojimaSpriteSheet_250: -2017182379
+      KojimaSpriteSheet_251: -479499256
+      KojimaSpriteSheet_26: 1656904246
+      KojimaSpriteSheet_27: 335918735
+      KojimaSpriteSheet_28: -771686941
+      KojimaSpriteSheet_29: -583132007
+      KojimaSpriteSheet_3: 1502357310
+      KojimaSpriteSheet_30: -1170802130
+      KojimaSpriteSheet_31: 110886933
+      KojimaSpriteSheet_32: 213816732
+      KojimaSpriteSheet_33: 344857868
+      KojimaSpriteSheet_34: 1498629966
+      KojimaSpriteSheet_35: 1913206910
+      KojimaSpriteSheet_36: 315696386
+      KojimaSpriteSheet_37: 1160003420
+      KojimaSpriteSheet_38: -1049991260
+      KojimaSpriteSheet_39: 1407082230
+      KojimaSpriteSheet_4: 210252301
+      KojimaSpriteSheet_40: -635192532
+      KojimaSpriteSheet_41: -883728687
+      KojimaSpriteSheet_42: 1771274
+      KojimaSpriteSheet_43: -508910220
+      KojimaSpriteSheet_44: 873973784
+      KojimaSpriteSheet_45: 1012509513
+      KojimaSpriteSheet_46: 1717033902
+      KojimaSpriteSheet_47: 185710247
+      KojimaSpriteSheet_48: -1217172530
+      KojimaSpriteSheet_49: -1086772423
+      KojimaSpriteSheet_5: -151178971
+      KojimaSpriteSheet_50: 1514347125
+      KojimaSpriteSheet_51: -2134208490
+      KojimaSpriteSheet_52: 283290027
+      KojimaSpriteSheet_53: -1088519077
+      KojimaSpriteSheet_54: 1001118090
+      KojimaSpriteSheet_55: -83439216
+      KojimaSpriteSheet_56: 1128647066
+      KojimaSpriteSheet_57: 520668642
+      KojimaSpriteSheet_58: 439913580
+      KojimaSpriteSheet_59: -3170403
+      KojimaSpriteSheet_6: 370792536
+      KojimaSpriteSheet_60: 980767333
+      KojimaSpriteSheet_61: -1833255163
+      KojimaSpriteSheet_62: -778163973
+      KojimaSpriteSheet_63: -182270324
+      KojimaSpriteSheet_64: -80439779
+      KojimaSpriteSheet_65: 416682026
+      KojimaSpriteSheet_66: -1105924966
+      KojimaSpriteSheet_67: 735587835
+      KojimaSpriteSheet_68: 1543747710
+      KojimaSpriteSheet_69: -2020434986
+      KojimaSpriteSheet_7: 1447175723
+      KojimaSpriteSheet_70: -158339609
+      KojimaSpriteSheet_71: 229482852
+      KojimaSpriteSheet_72: -497978314
+      KojimaSpriteSheet_73: 209725081
+      KojimaSpriteSheet_74: 219841806
+      KojimaSpriteSheet_75: -499317318
+      KojimaSpriteSheet_76: -1795274222
+      KojimaSpriteSheet_77: 462863060
+      KojimaSpriteSheet_78: -1235207257
+      KojimaSpriteSheet_79: -1064606389
+      KojimaSpriteSheet_8: 376895457
+      KojimaSpriteSheet_80: -2051019472
+      KojimaSpriteSheet_81: -581603186
+      KojimaSpriteSheet_82: 285910150
+      KojimaSpriteSheet_83: -171433270
+      KojimaSpriteSheet_84: 662841018
+      KojimaSpriteSheet_85: 937581061
+      KojimaSpriteSheet_86: -725173282
+      KojimaSpriteSheet_87: 1377697383
+      KojimaSpriteSheet_88: 460084982
+      KojimaSpriteSheet_89: -1336301638
+      KojimaSpriteSheet_9: -2093372123
+      KojimaSpriteSheet_90: -2082688079
+      KojimaSpriteSheet_91: 1677601322
+      KojimaSpriteSheet_92: -340785610
+      KojimaSpriteSheet_93: -948877927
+      KojimaSpriteSheet_94: 1776376459
+      KojimaSpriteSheet_95: -455176621
+      KojimaSpriteSheet_96: -361816018
+      KojimaSpriteSheet_97: 786869841
+      KojimaSpriteSheet_98: -507920686
+      KojimaSpriteSheet_99: -327024588
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

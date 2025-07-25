@@ -24,11 +24,13 @@ public class Spaceship : MonoBehaviour
 
     [Header("Game Scoring")]
     public int Score = 0;
+    private int PreviousScore;
 
     [Header("Other")]
+    public float deathDelay = 1;
+    public float HUDRecoil = .5f;
     GameManager gameManager;
     Animator animator;
-    public float deathDelay;
     Camera cam;
 
     [Header("Sound")]
@@ -39,6 +41,7 @@ public class Spaceship : MonoBehaviour
     public CameraShake CameraShake;
     public float ShakeDuration = .15f;
     public GameOverUI GameOverUI;
+    public CockpitHUD CockpitHUD;
 
 
     private Rigidbody2D rb2D;
@@ -51,6 +54,8 @@ public class Spaceship : MonoBehaviour
         gameManager = GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>();
         animator = GetComponentInChildren<Animator>();
         cam = Camera.main;
+
+        PreviousScore = Score;
     }
     
     void Update()
@@ -70,9 +75,24 @@ public class Spaceship : MonoBehaviour
             PlayerPrefs.DeleteAll();
         }
 
+        //Damage Testers
         if (Input.GetKeyDown(KeyCode.K))
         {
             TakeDamage(100);
+        }
+
+        if (Input.GetButtonDown("Fire2"))
+        {
+            TakeDamage(1);
+        }
+
+        //Checks to see if player scored any points
+        if (Score != PreviousScore)
+        {
+            StartCoroutine(CockpitHUD.RoidDestroy());
+            Debug.Log("Score changed from " + PreviousScore + " to " +  Score);
+            //Updates the previous score to current Score
+            PreviousScore = Score;
         }
     }
 
@@ -132,10 +152,12 @@ public class Spaceship : MonoBehaviour
         //HealthCurrent -= damage;  another way of writing the above
 
         HitSounds.PlayRandomSound();
+        StartCoroutine(CockpitHUD.TakenDamage());
 
         //If current health isn't Zero, shake the camera
         if (HealthCurrent > 0)
         {
+            Debug.Log("Shake");
             StartCoroutine(CameraShake.ShakeRoutine(ShakeDuration, .4f));
         }
 
@@ -154,6 +176,9 @@ public class Spaceship : MonoBehaviour
         cam.orthographicSize = 4;
         animator.SetTrigger("Death");
         yield return new WaitForSeconds(deathDelay);
+
+        StartCoroutine(CockpitHUD.PlayerDeath());
+
         Explode();
     }
 

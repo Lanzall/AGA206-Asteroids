@@ -20,6 +20,7 @@ public class Asteroid : MonoBehaviour
     [Header("Game Scores")]
     public int ScoreValue = 10;
 
+
     private void Start()
     {
         HealthCurrent = HealthMax;
