@@ -108,6 +108,8 @@ public class Spaceship : MonoBehaviour
 
     public void GameOver()
     {
+        StartCoroutine(CockpitHUD.PlayerDeath());
+
         bool celebrateHiScore = false;
         if (Score > GetHighScore() && celebrateHiScore == false)
         {
@@ -152,11 +154,12 @@ public class Spaceship : MonoBehaviour
         //HealthCurrent -= damage;  another way of writing the above
 
         HitSounds.PlayRandomSound();
-        StartCoroutine(CockpitHUD.TakenDamage());
+        
 
         //If current health isn't Zero, shake the camera
         if (HealthCurrent > 0)
         {
+            StartCoroutine(CockpitHUD.TakenDamage());
             Debug.Log("Shake");
             StartCoroutine(CameraShake.ShakeRoutine(ShakeDuration, .4f));
         }
@@ -176,8 +179,6 @@ public class Spaceship : MonoBehaviour
         cam.orthographicSize = 4;
         animator.SetTrigger("Death");
         yield return new WaitForSeconds(deathDelay);
-
-        StartCoroutine(CockpitHUD.PlayerDeath());
 
         Explode();
     }

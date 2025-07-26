@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CockpitUI104178_0
+      name: Idle01
       rect:
         serializedVersion: 2
         x: 0
@@ -105,21 +105,21 @@ TextureImporter:
         width: 104
         height: 178
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b148212a1ae629c4aaaade08b9e63f2d
-      internalID: 1554186951
+      spriteID: e9f1fccc846b7d9478b6229f08826122
+      internalID: 490997949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CockpitUI104178_1
+      name: Idle02
       rect:
         serializedVersion: 2
         x: 104
@@ -127,21 +127,21 @@ TextureImporter:
         width: 104
         height: 178
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb06cab647bd736459d63c645a4b34ef
-      internalID: -1733971821
+      spriteID: 77b5d4da9ca78084cba7e99a34d9881b
+      internalID: -162584339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CockpitUI104178_2
+      name: Damaged
       rect:
         serializedVersion: 2
         x: 208
@@ -149,21 +149,21 @@ TextureImporter:
         width: 104
         height: 178
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c8b582c27a684d4382671957bbaf972
-      internalID: 1432994526
+      spriteID: f16d296ff3b4bb349a6681f311ec45d8
+      internalID: 453500928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CockpitUI104178_3
+      name: RoidDestroy
       rect:
         serializedVersion: 2
         x: 312
@@ -171,21 +171,21 @@ TextureImporter:
         width: 104
         height: 178
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55cf80da2602dea44b4f6c13e651c743
-      internalID: -55212247
+      spriteID: 972a015194a31fe488c9a06d05abb7fb
+      internalID: 2045711796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CockpitUI104178_4
+      name: Death01
       rect:
         serializedVersion: 2
         x: 416
@@ -193,15 +193,37 @@ TextureImporter:
         width: 104
         height: 178
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1758e0d4302f3714d9b67a57cea6f8a1
-      internalID: -1933634541
+      spriteID: 2b61b232bccc7504e8a483b0c0448738
+      internalID: -1098249877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death02
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 0
+        width: 104
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b93c7b48eebb64b874b87302cd767b
+      internalID: -22057611
       vertices: []
       indices: 
       edges: []
@@ -210,7 +232,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 770567c7dddf05e42a5e58ec50d3134c
+    spriteID: 5a0c23f7819c35849955fcb9b884057f
     internalID: 0
     vertices: []
     indices: 
@@ -219,14 +241,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries:
+      - key: SpriteEditor.SliceOnImport
+        value: False
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":104.0,"y":178.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      CockpitUI104178_0: 1554186951
-      CockpitUI104178_1: -1733971821
-      CockpitUI104178_2: 1432994526
-      CockpitUI104178_3: -55212247
-      CockpitUI104178_4: -1933634541
+      Damaged: 453500928
+      Death01: -1098249877
+      Death02: -22057611
+      Idle01: 490997949
+      Idle02: -162584339
+      RoidDestroy: 2045711796
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
