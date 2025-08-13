@@ -1,51 +1,60 @@
 {
     "version": 1,
-    "name": "DiverModeInput",
+    "name": "AstralTombPlayer_Actions",
     "maps": [
         {
-            "name": "DiverPlayer",
-            "id": "2a87420d-dfcb-4fb5-833e-350989b78c5a",
+            "name": "Player",
+            "id": "daf90130-cbd1-4815-a712-9a0b30f9d1e2",
             "actions": [
                 {
                     "name": "Movement",
                     "type": "Value",
-                    "id": "619f8336-6e46-4734-af52-03718a7a6053",
+                    "id": "f143840a-4b64-4eaa-a706-f1b7d7b29765",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Attack",
+                    "name": "Interact",
                     "type": "Button",
-                    "id": "cda26086-f0e8-4f6c-89bf-6cf10285ded3",
+                    "id": "7b7ef609-a56e-4742-8164-c1df1922912b",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "ReadyHarpoon",
+                    "name": "Aim",
                     "type": "Button",
-                    "id": "1c1d49e4-51b1-4221-846e-6a039e34f3e8",
+                    "id": "5af78b23-74ba-4e08-b9bc-b71912030b10",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Look",
-                    "type": "Value",
-                    "id": "a040343d-599d-403a-a9b8-354810b765d7",
-                    "expectedControlType": "Vector2",
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "24241020-efba-44b7-a990-c4c44d271ce4",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true
+                    "initialStateCheck": false
                 },
                 {
-                    "name": "Sprint",
+                    "name": "RocketToggle",
                     "type": "Button",
-                    "id": "6dd55da3-5764-4a86-a655-78da66b6ce68",
+                    "id": "a75373e7-a6e0-468e-9b1a-09926fbc2c3c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Dash",
+                    "type": "Button",
+                    "id": "bd20f3bf-2ab2-454b-baad-9a2c75ca593c",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -55,51 +64,7 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "14b54a2a-6f0a-41ca-93a7-ede46d86152a",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard and Mouse",
-                    "action": "Attack",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "bc9b6077-c979-4335-8eec-82dcd1ddbca3",
-                    "path": "<Gamepad>/rightTrigger",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Controller",
-                    "action": "Attack",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "314cd62a-8a45-4ab7-ac18-9e5a4a9212d2",
-                    "path": "<Mouse>/rightButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Keyboard and Mouse",
-                    "action": "ReadyHarpoon",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "71020a70-bfbb-4568-95e2-8bfb409a535c",
-                    "path": "<Gamepad>/leftTrigger",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";Controller",
-                    "action": "ReadyHarpoon",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "d9510f3c-f40f-4207-9edf-f570f3de7113",
+                    "id": "ec31245c-d886-4e28-b357-365d37a93274",
                     "path": "<Gamepad>/leftStick",
                     "interactions": "",
                     "processors": "",
@@ -110,7 +75,7 @@
                 },
                 {
                     "name": "WASD",
-                    "id": "5cd4054a-28a9-43e6-acf4-7ed177856d25",
+                    "id": "9167ca6d-bbed-4c14-84f0-c579ea554aee",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
@@ -121,7 +86,7 @@
                 },
                 {
                     "name": "up",
-                    "id": "b1d33244-33dc-4a50-a4b0-037ea1906437",
+                    "id": "46ae6512-4482-46ee-b871-410eba96469d",
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
@@ -132,7 +97,7 @@
                 },
                 {
                     "name": "down",
-                    "id": "a134b6af-45aa-4bbf-95b1-7372440af2c4",
+                    "id": "aa548ea1-5952-4ac9-81d0-f29efb4947e7",
                     "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
@@ -143,7 +108,7 @@
                 },
                 {
                     "name": "left",
-                    "id": "10a9ca75-69f4-4461-b61b-35886aa4eb93",
+                    "id": "ce6ad854-fb72-42d6-b3af-d560622e0e97",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
@@ -154,7 +119,7 @@
                 },
                 {
                     "name": "right",
-                    "id": "99358b19-a198-4421-b082-7ded663cf187",
+                    "id": "523b7b3a-46b9-4d92-afa2-ef142421eba7",
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
@@ -165,34 +130,100 @@
                 },
                 {
                     "name": "",
-                    "id": "a87ddd2e-c973-46a1-bb64-2985376254d6",
-                    "path": "<Mouse>/delta",
+                    "id": "7aa08aa9-6a7a-43f0-b2d6-bbc58441dd55",
+                    "path": "<Gamepad>/buttonEast",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
-                    "action": "Look",
+                    "groups": ";Controller",
+                    "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "7389453b-cb9d-4d81-8f1a-c9247e2a4015",
+                    "id": "943ba1c2-ba07-4160-a182-5d2d3d054436",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard and Mouse",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0929ddd8-c0d1-47c7-946d-1724e2583b38",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard and Mouse",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "18730606-e2c4-44b8-bf5e-4fc12e84c382",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Controller",
+                    "action": "Aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2423c1a1-9aa4-487c-858c-f9696da7228f",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard and Mouse",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "be7f8bea-c963-4822-b0f3-dd73d7c0e220",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Controller",
+                    "action": "Shoot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d16e8bab-42c7-4f52-870f-a67a8f185652",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RocketToggle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "761d4e9b-6834-4d40-83a0-3f6bfa2bfecd",
                     "path": "<Keyboard>/leftShift",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard and Mouse",
-                    "action": "Sprint",
+                    "action": "Dash",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "a0b4f939-4f3f-4b65-8fbe-6a35669d4a39",
-                    "path": "<Gamepad>/leftShoulder",
+                    "id": "f9d9fc41-8f64-4b5e-9616-3c26568e0d64",
+                    "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Controller",
-                    "action": "Sprint",
+                    "action": "Dash",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
