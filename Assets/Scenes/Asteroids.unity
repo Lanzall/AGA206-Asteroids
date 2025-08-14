@@ -2734,6 +2734,10 @@ PrefabInstance:
       propertyPath: CameraShake
       value: 
       objectReference: {fileID: 1678941364}
+    - target: {fileID: 3032454671206714583, guid: 10cf09aa04b91384d96210e142acc98d, type: 3}
+      propertyPath: SpriteRenderer
+      value: 
+      objectReference: {fileID: 4170226280879924245}
     - target: {fileID: 3592514619799710043, guid: 10cf09aa04b91384d96210e142acc98d, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -2787,6 +2791,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10cf09aa04b91384d96210e142acc98d, type: 3}
+--- !u!212 &4170226280879924245 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 3592514619799710043, guid: 10cf09aa04b91384d96210e142acc98d, type: 3}
+  m_PrefabInstance: {fileID: 4170226280879924244}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

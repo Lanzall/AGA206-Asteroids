@@ -5,6 +5,8 @@ using UnityEngine;
 public class Spaceship : MonoBehaviour
 {
     #region Variables
+    public SpriteRenderer SpriteRenderer;
+
     [Header("Engine")]
     public float EnginePower = 10f;
     public float TurnPower = 10f;
@@ -54,6 +56,7 @@ public class Spaceship : MonoBehaviour
         gameManager = GameObject.FindGameObjectWithTag("GM").GetComponent<GameManager>();
         animator = GetComponentInChildren<Animator>();
         cam = Camera.main;
+        SpriteRenderer.color = ColorX.GetRandomColor();
 
         PreviousScore = Score;
     }

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SpawnManager : MonoBehaviour
+public class SpawnManager : Singleton<SpawnManager>
 {
     public GameObject[] AsteroidRefs;   // Asteroids to spawn
     public float CheckInterval = 3f;    // The interval of time to check if we can spawn
@@ -30,7 +30,7 @@ public class SpawnManager : MonoBehaviour
         }
     }
 
-    private void SpawnAsteroid()
+    public void SpawnAsteroid()
     {
         if (AsteroidRefs == null || AsteroidRefs.Length == 0)
             return;
