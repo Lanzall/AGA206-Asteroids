@@ -393,7 +393,19 @@ MonoBehaviour:
     m_ActionId: 7b7ef609-a56e-4742-8164-c1df1922912b
     m_ActionName: 'Player/Interact[/Keyboard/e]'
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 782969937}
+        m_TargetAssemblyTypeName: ATPlayer, Assembly-CSharp
+        m_MethodName: Aim
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 5af78b23-74ba-4e08-b9bc-b71912030b10
     m_ActionName: 'Player/Aim[/Mouse/rightButton]'
   - m_PersistentCalls:
@@ -420,6 +432,62 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: bd20f3bf-2ab2-454b-baad-9a2c75ca593c
     m_ActionName: 'Player/Dash[/Keyboard/leftShift]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: b80f7861-d497-4236-b9e6-520265ebc1c9
+    m_ActionName: 'UI/Navigate[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 92d67b9c-a847-458e-ae5e-e13759c39152
+    m_ActionName: UI/Submit
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 12a21106-44c2-451c-b2e1-7662e9ee8719
+    m_ActionName: UI/Cancel
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 4619555d-fcc9-4727-9ff2-95c4e5de5c00
+    m_ActionName: UI/Point
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 4dd3806d-620c-4bc7-950a-068f761c7667
+    m_ActionName: UI/Click
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 1f10d8a2-d61d-4164-b610-cbdbf0875e8a
+    m_ActionName: UI/RightClick
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 83371f71-6298-45d9-8239-c4c5dacf0ba3
+    m_ActionName: UI/MiddleClick
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 2aae9fff-3ad7-47f1-8908-ea7f4d2a316b
+    m_ActionName: UI/ScrollWheel
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 3e439334-47ed-4d4b-a09b-653d5bf36a22
+    m_ActionName: UI/TrackedDevicePosition
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: de208a57-7d66-4f1f-8f43-8f6c50cf4dcf
+    m_ActionName: UI/TrackedDeviceOrientation
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 782969937}
+        m_TargetAssemblyTypeName: ATPlayer, Assembly-CSharp
+        m_MethodName: MousePosition
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 99c13dfd-66ed-442c-b083-0e75b6c3a709
+    m_ActionName: 'Player/MousePosition[/Mouse/delta]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: 
@@ -535,6 +603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a231da179ea6d2b4e8d1fa9faa7e4745, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentPlayerState: 0
   Speed: 5
   PwrBeamStrength: 25
   PwrBeamSpeed: 25
