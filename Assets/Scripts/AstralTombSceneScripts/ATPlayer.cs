@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -29,10 +30,16 @@ public class ATPlayer : MonoBehaviour
     private Rigidbody2D rb2D;
     private Vector2 moveInput;
     private PlayerInput playerInput;
-    private float facingDirection;
     private float targetAngle;
+    private Quaternion targetRotation;
+    private float angleDifference;
+    private bool AnimMoving;
+    private SpriteRenderer baseSprite;
+    private SpriteRenderer lightsSprite;
+    private bool TakesDamage;
     
-    
+
+
 
 
 
@@ -44,9 +51,11 @@ public class ATPlayer : MonoBehaviour
         rb2D = GetComponent<Rigidbody2D>();
 
         baseAnimator = transform.Find("SpriteHolder").GetComponent<Animator>();
-        lightsAnimator = transform.Find("BodyLightsHolder").GetComponent<Animator>();
+        lightsAnimator = transform.Find("SpriteHolder/BodyLightsHolder").GetComponent<Animator>();
+        
 
-        transform.localScale = new Vector3(PSize, PSize, PSize);
+        baseSprite = transform.Find("SpriteHolder").GetComponent<SpriteRenderer>();
+        lightsSprite = transform.Find("SpriteHolder/BodyLightsHolder").GetComponent<SpriteRenderer>();
 
         
 
@@ -56,7 +65,9 @@ public class ATPlayer : MonoBehaviour
 
     void Update()
     {
-      if (Input.GetKey(KeyCode.Space))
+        AnimMoving = baseAnimator.GetBool("isMoving");
+
+        if (Input.GetKey(KeyCode.Space))
         {
             baseAnimator.SetBool("hasWeapon", true);
             lightsAnimator.SetBool("hasWeapon", true);
@@ -64,14 +75,29 @@ public class ATPlayer : MonoBehaviour
 
         }
 
+        if (AnimMoving == true)
+        {
+            Debug.Log("Moving");
+            
+        }
+
         Rotation();
+        RotationChecker();
     }
+
+    #region Player Health
+    public void TakeDamage()
+    {
+        baseAnimator.SetTrigger("hurt");
+    }
+
+    #endregion
+
 
     #region Movement
     public void Movement(InputAction.CallbackContext context)
     {
         moveInput = context.ReadValue<Vector2>();       // Gets the movement direction
-        targetAngle = Mathf.Atan2(moveInput.y, moveInput.x) * Mathf.Rad2Deg;        // Gets the pointed angle in degrees
 
         if (CurrentPlayerState != PlayerState.Aiming)
         {
@@ -87,6 +113,7 @@ public class ATPlayer : MonoBehaviour
             {
                 baseAnimator.SetBool("isMoving", false);
                 lightsAnimator.SetBool("isMoving", false);
+                transform.rotation = Quaternion.Euler(0, 0, 0);
             }
 
             if (CurrentPlayerState != PlayerState.Regular)
@@ -94,82 +121,59 @@ public class ATPlayer : MonoBehaviour
 
             if (CurrentPlayerState == PlayerState.Regular)
             {
-                rb2D.linearVelocity = moveInput * Speed;
-                //Flip();
+                rb2D.linearVelocity = moveInput.normalized * Speed;
+                Flip();
             }
 
         }
 
-        
-
-        
-
     }
 
-    /*public void Rotation()
+    public void RotationChecker()
     {
-        if (CurrentPlayerState != PlayerState.Aiming)
-        {
-            Quaternion targetRotation = Quaternion.Euler(0, 0, targetAngle);
-            spriteHolder.rotation = Quaternion.Lerp(spriteHolder.rotation, targetRotation, Time.deltaTime * RotationSpeed);       // Rotates the player to the input direction smoothly,
-                                                                                                                            // took a bit of research I don't understand Quaternions
-
-        }
-
-        if (moveInput == Vector2.zero)
-        {
-            spriteHolder.rotation = Quaternion.Euler(0, 0, 0);        // Snaps the player back to no rotation while Idle
-        }
-    }*/
+        float angle = Mathf.Atan2(moveInput.y, moveInput.x) * Mathf.Rad2Deg;
+        targetRotation = Quaternion.Euler(0, 0, angle);
+        angleDifference = Quaternion.Angle(transform.rotation, targetRotation);
+    }
 
     public void Rotation()
     {
-        if (CurrentPlayerState != PlayerState.Aiming)
+        if (AnimMoving == true)
         {
-            // Only rotate if there's movement input
-            if (moveInput != Vector2.zero)
+            if (moveInput.x == -1)
             {
-                // Calculate angle from input
-                float angle = Mathf.Atan2(moveInput.y, moveInput.x) * Mathf.Rad2Deg;
-
-                // Determine if angle is within horizontal or diagonal range
-                bool isHorizontalOrDiagonal =
-                    (Mathf.Abs(angle) <= 45f) ||         // Right and slight diagonals
-                    (Mathf.Abs(angle) >= 135f);          // Left and slight diagonals
-
-                if (isHorizontalOrDiagonal)
-                {
-                    Quaternion targetRotation = Quaternion.Euler(0, 0, angle);
-                    spriteHolder.rotation = Quaternion.Lerp(spriteHolder.rotation, targetRotation, Time.deltaTime * RotationSpeed);
-                }
-                else
-                {
-                    // Snap to upright for vertical movement
-                    spriteHolder.rotation = Quaternion.identity;
-                }
+                transform.rotation = Quaternion.Euler(0, 0, -180f);         // Did this because the player wouldn't rotate from a neutral positon to face right
             }
-            else
+            
+
+            if (angleDifference < 160f)
             {
-                // No movement — reset rotation
-                spriteHolder.rotation = Quaternion.identity;
+                transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, Time.deltaTime * RotationSpeed);        // Smooth rotation for all directions, only rotating if the angle difference is less than 180 degrees
+            }
+
+            else if (angleDifference < 10f)
+            {
+                transform.rotation = targetRotation;
+                Debug.Log("SmallAngle");
             }
         }
     }
-
 
     public void Flip()      // Changes Player Sprite to face appropriate Direction
     {
         if (moveInput.x > 0.1f)
         {
-            facingDirection = PSize;
+            baseSprite.flipX = false;
+            lightsSprite.flipX = false;
         }
         else if (moveInput.x < -0.1f)
         {
-            facingDirection = -PSize;
+            baseSprite.flipX = true;
+            lightsSprite.flipX = true;
         }
-
-        transform.localScale = new Vector3(facingDirection, PSize, PSize);
     }
+
+    
 
     #endregion
 
