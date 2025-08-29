@@ -11,6 +11,7 @@ public class CockpitHUD : MonoBehaviour
 
     private Spaceship ship;
     private Animator animator;
+    
 
     void Start()
     {
