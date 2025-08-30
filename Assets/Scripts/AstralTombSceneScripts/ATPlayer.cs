@@ -14,6 +14,8 @@ public class ATPlayer : MonoBehaviour
     public PlayerState CurrentPlayerState;
 
     [Header("Player Stats")]
+    public int HealthMax = 100;
+    public int HealthCurrent;
     public float Speed = 5.0f;
     public float RotationSpeed = 5f;
     public int PwrBeamStrength = 25;
@@ -37,6 +39,7 @@ public class ATPlayer : MonoBehaviour
     private SpriteRenderer baseSprite;
     private SpriteRenderer lightsSprite;
     private bool TakesDamage;
+    private Material healthMat;
     
 
 
@@ -56,6 +59,9 @@ public class ATPlayer : MonoBehaviour
 
         baseSprite = transform.Find("SpriteHolder").GetComponent<SpriteRenderer>();
         lightsSprite = transform.Find("SpriteHolder/BodyLightsHolder").GetComponent<SpriteRenderer>();
+
+        HealthCurrent = HealthMax;
+        healthMat = lightsSprite.material;
 
         
 
@@ -89,6 +95,11 @@ public class ATPlayer : MonoBehaviour
     public void TakeDamage()
     {
         baseAnimator.SetTrigger("hurt");
+
+        if (HealthCurrent <= 50)
+        {
+            
+        }
     }
 
     #endregion
