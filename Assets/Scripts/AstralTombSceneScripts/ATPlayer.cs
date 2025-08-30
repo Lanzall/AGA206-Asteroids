@@ -1,3 +1,4 @@
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -14,20 +15,28 @@ public class ATPlayer : MonoBehaviour
     public PlayerState CurrentPlayerState;
 
     [Header("Player Stats")]
-    public int HealthMax = 100;
+    public int HealthMax = 3;
     public int HealthCurrent;
+
     public float Speed = 5.0f;
     public float RotationSpeed = 5f;
-    public int PwrBeamStrength = 25;
+
     public float PwrBeamSpeed = 25f;
-    public float PSize = 2.5f;
+    public float RocketSpeed = 15f;
+
+    public float InvincibilityDuration = 1f;
 
     [Header("References")]
     public Transform FirePoint;
-    public GameObject BulletPrefab;
+    public GameObject PBeamPrefab;
+    public GameObject RocketPrefab;
     public Animator baseAnimator;
     public Animator lightsAnimator;
     public Transform spriteHolder;
+    public GameObject Arms;
+    public GameObject ArmsLights;
+
+
 
     private Rigidbody2D rb2D;
     private Vector2 moveInput;
@@ -38,8 +47,14 @@ public class ATPlayer : MonoBehaviour
     private bool AnimMoving;
     private SpriteRenderer baseSprite;
     private SpriteRenderer lightsSprite;
+    private SpriteRenderer armsSprite;
+    private SpriteRenderer armsLightsSprite;
     private bool TakesDamage;
     private Material healthMat;
+    private bool isInvincible;
+    private bool RocketToggle;
+    private bool hasWeapon;
+    
     
 
 
@@ -55,18 +70,28 @@ public class ATPlayer : MonoBehaviour
 
         baseAnimator = transform.Find("SpriteHolder").GetComponent<Animator>();
         lightsAnimator = transform.Find("SpriteHolder/BodyLightsHolder").GetComponent<Animator>();
-        
 
         baseSprite = transform.Find("SpriteHolder").GetComponent<SpriteRenderer>();
         lightsSprite = transform.Find("SpriteHolder/BodyLightsHolder").GetComponent<SpriteRenderer>();
 
+        armsSprite = transform.Find("Arms").GetComponent<SpriteRenderer>();
+        armsLightsSprite = transform.Find("Arms/ArmsLights").GetComponent<SpriteRenderer>();
+
         HealthCurrent = HealthMax;
         healthMat = lightsSprite.material;
+        isInvincible = false;
+        RocketToggle = false;
+        hasWeapon = false;
 
-        
+        Arms.SetActive(false);
+        ArmsLights.SetActive(false);
 
         Debug.Log("Base Animator: " + baseAnimator.gameObject.name);
         Debug.Log("Lights Animator: " + lightsAnimator.gameObject.name);
+
+
+
+
     }
 
     void Update()
@@ -77,6 +102,7 @@ public class ATPlayer : MonoBehaviour
         {
             baseAnimator.SetBool("hasWeapon", true);
             lightsAnimator.SetBool("hasWeapon", true);
+            hasWeapon = true;
 
 
         }
@@ -89,12 +115,28 @@ public class ATPlayer : MonoBehaviour
 
         Rotation();
         RotationChecker();
+
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            TakeDamage(25);
+        }
     }
 
+
+
+
+
     #region Player Health
-    public void TakeDamage()
+    public void TakeDamage(int damage)
     {
+        if (isInvincible) return;
+
         baseAnimator.SetTrigger("hurt");
+
+        HealthCurrent = HealthCurrent - damage;
+        StartCoroutine(ActivateInvincibility());
+
+
 
         if (HealthCurrent <= 50)
         {
@@ -102,6 +144,30 @@ public class ATPlayer : MonoBehaviour
         }
     }
 
+
+
+    IEnumerator ActivateInvincibility()
+    {
+        isInvincible = true;
+        StartCoroutine(FlashDuringInvincibility());
+        yield return new WaitForSeconds(InvincibilityDuration);
+        isInvincible = false;
+    }
+
+    IEnumerator FlashDuringInvincibility()
+    {
+        float elapsed = 0f;
+        while (elapsed < InvincibilityDuration)
+        {
+            baseSprite.enabled = !baseSprite.enabled;
+            lightsSprite.enabled = !lightsSprite.enabled;
+            yield return new WaitForSeconds(0.1f);
+            elapsed += 0.1f;
+        }
+
+        baseSprite.enabled = true;
+        lightsSprite.enabled = true;
+    }
     #endregion
 
 
@@ -192,16 +258,49 @@ public class ATPlayer : MonoBehaviour
 
     public void MousePosition(InputAction.CallbackContext context)
     {
-        if (CurrentPlayerState != PlayerState.Aiming)
-            return;
+        //if (CurrentPlayerState != PlayerState.Aiming)
+           // return;
 
-        Vector2 mouseScreenPosition = context.ReadValue<Vector2>();
-        Debug.Log("Mouse Screen Position" + mouseScreenPosition);
+        Vector2 mouseScreenPosition = context.ReadValue<Vector2>();     //Gets mouse position
+        
+        Vector3 mouseWorldPosition = Camera.main.ScreenToWorldPoint(mouseScreenPosition);       //Converts it to world space
+        mouseWorldPosition.z = 0f;
+
+        Vector3 directionToMouse = (mouseWorldPosition - Arms.transform.position).normalized;       //Finds the direction from arms to mouse
+
+        bool mouseIsBehind = (mouseWorldPosition.x < transform.position.x);     //Checks if the mouse is behind the player
+
+       if (CurrentPlayerState == PlayerState.Aiming)
+        {
+            baseSprite.flipX = mouseIsBehind;       //flips sprites only while aiming
+            lightsSprite.flipX = mouseIsBehind;
+            armsSprite.flipX = mouseIsBehind;
+            armsLightsSprite.flipX = mouseIsBehind;
+            FirePoint.transform.rotation = Arms.transform.rotation;
+        }
+
+
+
+        float baseAngle = mouseIsBehind ? 180f : 0f;        //flips aiming bounds
+        Vector3 baseForward = mouseIsBehind ? -transform.right : transform.right;
+
+        float angleToMouse = Vector3.SignedAngle(baseForward, directionToMouse, Vector3.forward);       //Angle between base direction and mouse direction
+
+        float clampedAngle = Mathf.Clamp(angleToMouse, -30f, 30f);        //Clamps the angle in 60 degrees
+
+        Arms.transform.rotation = Quaternion.Euler(0f, 0f, clampedAngle);       //Rotates the Arms
     }
+
     public void Aim(InputAction.CallbackContext context)
     {
+        if (hasWeapon == false)
+            return;
+
         if (context.performed)
         {
+            Arms.SetActive(true);
+            ArmsLights.SetActive(true);
+
             CurrentPlayerState = PlayerState.Aiming;
             rb2D.linearVelocity = Vector2.zero;
             transform.rotation = Quaternion.Euler(0, 0, 0);
@@ -218,6 +317,9 @@ public class ATPlayer : MonoBehaviour
 
         else if (context.canceled)
         {
+            Arms.SetActive(false);
+            ArmsLights.SetActive(false);
+
             CurrentPlayerState = PlayerState.Regular;
             baseAnimator.SetBool("isAiming", false);
             lightsAnimator.SetBool("isAiming", false);
@@ -235,22 +337,69 @@ public class ATPlayer : MonoBehaviour
         
     }
 
+    
+
+    public void RocketEnable(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            RocketToggle = true;
+        }
+
+        else if (context.canceled)
+        {
+            RocketToggle = false;
+        }
+    }
+
     public void Shoot(InputAction.CallbackContext context)
     {
         if (CurrentPlayerState != PlayerState.Aiming)
             return;
 
-        if (context.performed)
+        if ((context.performed) && RocketToggle == false)
         {
             PowerBeam();
+        }
+
+        else if ((context.performed && RocketToggle == true))
+        {
+            Rocket();
         }
     }
 
     void PowerBeam()
     {
-        GameObject powerbeam = Instantiate(BulletPrefab, FirePoint.position, FirePoint.rotation);
+        GameObject powerbeam = Instantiate(PBeamPrefab, FirePoint.position, Arms.transform.rotation);
         Rigidbody2D rb = powerbeam.GetComponent<Rigidbody2D>();
-        rb.linearVelocity = transform.right * PwrBeamSpeed;
+
+        if (armsSprite.flipX == false)
+        {
+            rb.linearVelocity = Arms.transform.right * PwrBeamSpeed;
+        }
+
+        else if (armsSprite.flipX == true)
+        {
+            
+            rb.linearVelocity = -FirePoint.right * PwrBeamSpeed;
+        }
+
+    }
+
+    void Rocket()
+    {
+        GameObject rocket = Instantiate(RocketPrefab, FirePoint.position, Arms.transform.rotation);
+        Rigidbody2D rb = rocket.GetComponent<Rigidbody2D>();
+        if (armsSprite.flipX == false)
+        {
+            rb.linearVelocity = Arms.transform.right * RocketSpeed;
+        }
+
+        else if (armsSprite.flipX == true)
+        {
+
+            rb.linearVelocity = -FirePoint.right * RocketSpeed;
+        }
     }
 
     #endregion

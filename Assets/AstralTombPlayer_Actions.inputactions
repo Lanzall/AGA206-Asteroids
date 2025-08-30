@@ -49,7 +49,7 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 },
                 {
                     "name": "Dash",
@@ -206,10 +206,10 @@
                 {
                     "name": "",
                     "id": "d16e8bab-42c7-4f52-870f-a67a8f185652",
-                    "path": "",
+                    "path": "<Keyboard>/leftShift",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": ";Keyboard and Mouse",
                     "action": "RocketToggle",
                     "isComposite": false,
                     "isPartOfComposite": false

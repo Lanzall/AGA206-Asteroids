@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 65c183ca07774ab4f883684368471d5a
+guid: f20a82dd02df09343853454626179f1c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,23 +97,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerAimArms_0
+      name: Rocket_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 60
-        height: 66
-      alignment: 9
-      pivot: {x: 0.433589, y: 0.69670784}
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8930f65a41b784f4e9a2d86d6147edc3
-      internalID: -1618030164
+      spriteID: c32abe1c8c0de72478ff9ce792134dc2
+      internalID: -94416258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocket_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 0
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b03c22ff3cd5b4387df755921e1021
+      internalID: -927599830
       vertices: []
       indices: 
       edges: []
@@ -122,7 +144,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 735a21e868a5db7469e80bef8b3e50e3
+    spriteID: 31ec9c452b45cc2449008ad6ba5dcc4d
     internalID: 0
     vertices: []
     indices: 
@@ -132,9 +154,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":60.0,"y":66.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":24.0,"y":10.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      PlayerAimArms_0: -1618030164
+      Rocket_0: -94416258
+      Rocket_1: -927599830
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

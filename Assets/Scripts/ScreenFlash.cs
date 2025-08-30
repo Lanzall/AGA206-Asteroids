@@ -36,8 +36,7 @@ public class ScreenFlash : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-            StartCoroutine(FlashRoutine());
+        
     }
 
 }
