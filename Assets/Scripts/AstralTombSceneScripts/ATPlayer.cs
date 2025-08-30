@@ -15,7 +15,7 @@ public class ATPlayer : MonoBehaviour
     public PlayerState CurrentPlayerState;
 
     [Header("Player Stats")]
-    public int HealthMax = 3;
+    public int HealthMax = 100;
     public int HealthCurrent;
 
     public float Speed = 5.0f;
@@ -74,7 +74,7 @@ public class ATPlayer : MonoBehaviour
         baseSprite = transform.Find("SpriteHolder").GetComponent<SpriteRenderer>();
         lightsSprite = transform.Find("SpriteHolder/BodyLightsHolder").GetComponent<SpriteRenderer>();
 
-        armsSprite = transform.Find("Arms").GetComponent<SpriteRenderer>();
+        armsSprite = transform.Find("Arms/ArmsSprite").GetComponent<SpriteRenderer>();
         armsLightsSprite = transform.Find("Arms/ArmsLights").GetComponent<SpriteRenderer>();
 
         HealthCurrent = HealthMax;
