@@ -81,7 +81,7 @@ public class ATPlayer : MonoBehaviour
         healthMat = lightsSprite.material;
         isInvincible = false;
         RocketToggle = false;
-        hasWeapon = false;
+        hasWeapon = true;
 
         Arms.SetActive(false);
         ArmsLights.SetActive(false);
@@ -98,14 +98,14 @@ public class ATPlayer : MonoBehaviour
     {
         AnimMoving = baseAnimator.GetBool("isMoving");
 
-        if (Input.GetKey(KeyCode.Space))
+        /*if (Input.GetKey(KeyCode.Space))
         {
             baseAnimator.SetBool("hasWeapon", true);
             lightsAnimator.SetBool("hasWeapon", true);
             hasWeapon = true;
 
 
-        }
+        }*/
 
         if (AnimMoving == true)
         {
