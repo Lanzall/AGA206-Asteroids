@@ -81,7 +81,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 50
   m_Sprite: {fileID: -94416258, guid: f20a82dd02df09343853454626179f1c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -128,8 +128,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Damage: 1
-  CollisionDamage: 1
-  ExplosionPrefab: {fileID: 4145957884261269693, guid: c9441fb5a4a0dc141905fd0914ae8785, type: 3}
 --- !u!114 &-2571008873008076228
 MonoBehaviour:
   m_ObjectHideFlags: 0

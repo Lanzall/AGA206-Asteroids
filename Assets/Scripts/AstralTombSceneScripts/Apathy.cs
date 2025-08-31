@@ -8,13 +8,9 @@ public class Apathy : MonoBehaviour
     public Animator Animator;
 
 
-    private void Awake()
-    {
-        audioSource = GetComponent<AudioSource>();
-    }
-
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         Animator = GetComponent<Animator>();
     }
 
@@ -38,4 +34,11 @@ public class Apathy : MonoBehaviour
 
         audioSource.Play();
     }
+
+
+    public void CombatBegin()
+    {
+
+    }
+
 }

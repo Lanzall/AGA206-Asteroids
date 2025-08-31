@@ -65,7 +65,7 @@ public class ATPlayer : MonoBehaviour
 
     void Start()
     {
-        CurrentPlayerState = PlayerState.Regular;
+        CurrentPlayerState = PlayerState.Cutscene;
         rb2D = GetComponent<Rigidbody2D>();
 
         baseAnimator = transform.Find("SpriteHolder").GetComponent<Animator>();
@@ -89,7 +89,7 @@ public class ATPlayer : MonoBehaviour
         Debug.Log("Base Animator: " + baseAnimator.gameObject.name);
         Debug.Log("Lights Animator: " + lightsAnimator.gameObject.name);
 
-
+        StartCoroutine(Cutscene());
 
 
     }
@@ -122,7 +122,40 @@ public class ATPlayer : MonoBehaviour
         }
     }
 
+    #region Cutscene
 
+
+    IEnumerator Cutscene()
+    {
+
+        Vector3 targetPosition = new Vector3(-3f, 0f, 0f);
+        float moveSpeed = 3f;
+        float waitTime = 22f;
+
+        // Move toward target position
+        while (Vector3.Distance(transform.position, targetPosition) > 0.05f)
+        {
+            baseAnimator.SetBool("cutsceneMovement", true);
+            lightsAnimator.SetBool("cutsceneMovement", true);
+            transform.position = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
+            yield return null;
+        }
+
+        // Optional: Snap to exact position
+        transform.position = targetPosition;
+        baseAnimator.SetBool("cutsceneMovement", false);
+        lightsAnimator.SetBool("cutsceneMovement", false);
+
+        // Wait at the position
+        yield return new WaitForSeconds(waitTime);
+
+        // Transition to Regular state
+        CurrentPlayerState = PlayerState.Regular;
+        
+    }
+
+
+    #endregion
 
 
 
@@ -131,7 +164,8 @@ public class ATPlayer : MonoBehaviour
     {
         if (isInvincible) return;
 
-        baseAnimator.SetTrigger("hurt");
+        baseAnimator.SetBool("hurt", true);
+        lightsAnimator.SetBool("hurt", true);
 
         HealthCurrent = HealthCurrent - damage;
         StartCoroutine(ActivateInvincibility());
@@ -163,6 +197,8 @@ public class ATPlayer : MonoBehaviour
             lightsSprite.enabled = !lightsSprite.enabled;
             yield return new WaitForSeconds(0.1f);
             elapsed += 0.1f;
+            baseAnimator.SetBool("hurt", false);
+            lightsAnimator.SetBool("hurt", false);
         }
 
         baseSprite.enabled = true;
@@ -175,6 +211,9 @@ public class ATPlayer : MonoBehaviour
     public void Movement(InputAction.CallbackContext context)
     {
         moveInput = context.ReadValue<Vector2>();       // Gets the movement direction
+
+        if (CurrentPlayerState == PlayerState.Cutscene)
+            return;
 
         if (CurrentPlayerState != PlayerState.Aiming)
         {
@@ -215,7 +254,7 @@ public class ATPlayer : MonoBehaviour
 
     public void Rotation()
     {
-        if (AnimMoving == true)
+        if (AnimMoving == true && CurrentPlayerState != PlayerState.Cutscene)
         {
             if (moveInput.x == -1)
             {
@@ -294,6 +333,9 @@ public class ATPlayer : MonoBehaviour
     public void Aim(InputAction.CallbackContext context)
     {
         if (hasWeapon == false)
+            return;
+
+        if (CurrentPlayerState == PlayerState.Cutscene)
             return;
 
         if (context.performed)
