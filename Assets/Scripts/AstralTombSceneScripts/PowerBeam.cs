@@ -3,30 +3,22 @@ using UnityEngine;
 public class PowerBeam : MonoBehaviour
 {
     public int Damage = 25;
-    private SpriteRenderer spriteRenderer;
 
-    private void Awake()
-    {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-    }
-
-    public void Initialize(Vector2 velocity)
-    {
-        GetComponent<Rigidbody2D>().linearVelocity = velocity;
-
-        // Flip sprite if moving left
-       /* if (velocity.x < 0)
-        {
-            spriteRenderer.flipX = true;
-        }
-        else
-        {
-            spriteRenderer.flipX = false;
-        }*/
-    }
+    public GameObject ExplosionPrefab;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        AsteroidAT asteroid = collision.gameObject.GetComponent<AsteroidAT>();
+        if (asteroid)
+        {
+            asteroid.TakeDamage(Damage);
+            Explode();
+        }
+    }
 
+    private void Explode()
+    {
+        Instantiate(ExplosionPrefab, transform.position, Quaternion.identity);
+        Destroy(gameObject);
     }
 }
